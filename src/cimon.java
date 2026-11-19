@@ -1,4 +1,4 @@
-public class cimon {
+public class Cimon {
     private String name;
     private int hunger;
     private int energy;
@@ -8,7 +8,7 @@ public class cimon {
     private int happiness;
 
 
-    public cimon {
+    public Cimon(String name) {
         this.name = name;
         this.hunger = 100;
         this.energy = 100;
@@ -20,19 +20,22 @@ public class cimon {
 
 
     public void eat() {
-
+        System.out.println(name + " ate food");
 
     }
     public void sleep() {
-       
-    }
-    public void play() {
-       
+       System.out.println(name + " is taking a nap");
     }
     public void study() {
+        System.out.println(name + " is studying hard!");
        
     }
     public void game() {
+        System.out.println(name + " is having some fun!");
+       
+    }
+    public void stats() {
+        System.out.println(name + " is having some fun!");
        
     }
 }
