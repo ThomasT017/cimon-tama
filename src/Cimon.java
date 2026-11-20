@@ -21,7 +21,8 @@ public class Cimon {
 
     public void eat() {
         System.out.println(name + " ate food");
-
+        hunger -= 5;
+    
     }
     public void sleep() {
        System.out.println(name + " is taking a nap");
@@ -35,7 +36,14 @@ public class Cimon {
        
     }
     public void stats() {
-        System.out.println(name + " is having some fun!");
+        System.out.println(name + "'s STATS");
+        System.out.println("Hunger = " + hunger);
+        System.out.println("Energy = " + energy);
+        System.out.println("Health = " + health);
+        System.out.println("Sanity = " + sanity);
+        System.out.println("Happiness = " + happiness);
+        System.out.println("Iq = " + intelligence);
+
        
     }
 }
